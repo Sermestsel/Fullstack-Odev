@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Detay Sayfası</title>
+    <link rel="stylesheet" href="./assets/styla.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="brand">
+                <a href="e-ticaret.html" class="logo-link">
+                    <div class="logo"><img src="./img/logo.jpg" alt="Serm Store Logo">
+</div>
+                    <span class="brand-name">Serm Store</span>
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Aradığınız ürün, marka veya kategori">
+            </div>
+            <div class="actions">
+                <a href="#" class="action-item">Sepetim</a>
+                <a href="#" class="action-item">Giriş Yap</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="breadcrumbs">
+            Ana Sayfa / Elektronik / Ses / <b>Blueetoth Ses Bombası</b>
+        </div>
+
+        <section class="product-detail">
+            <div class="product-gallery">
+                <div class="thumbnail-images" id="thumbs">
+                    <div class="thumb active" data-full="./img/1.png"><img src="./img/1.png" alt="Ürün Thumbnail 1"></div>
+                    <div class="thumb" data-full="./img/2.png"><img src="./img/2.png" alt="Ürün Thumbnail 2"></div>
+                    <div class="thumb" data-full="./img/3.png"><img src="./img/3.png" alt="Ürün Thumbnail 3"></div>
+                </div>
+                <div class="main-image">
+                    <span class="badge">Ücretsiz Kargo</span>
+                    <img id="mainImg" src="./img/1.png" alt="Pulse Pro Wireless Kulaklık Ana Resim">
+                </div>
+            </div>
+            <div class="product-info">
+                <h1 class="product-title">Fütüristik Bluetooth Ses Bombası</h1>
+                <p class="product-subtitle">- Bluetooth 5.3 - 12 saat pil ömrü - IPX7 su geçirmezlik</p>
+
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <span class="rating-score">4.6</span>
+                    <a href="#reviews" class="review-count">(128 yorum)</a>
+                </div>
+
+                <div class="price-section">
+                    <div class="current-price">₺2.499 <span class="discount-badge">%17</span></div>
+                    <div class="old-price">₺2.999</div>
+                </div>
+                <div class="stock-status">Stok: <span id="stock">12</span> adet | Bugün kargoda</div>
+
+                <div class="options">
+                    <div class="option-group">
+                        <label class="label">Renk</label>
+                        <div class="chips" id="colors">
+                            <div class="chip active" data-color="Siyah"><span class="dot" style="background-color: #E0E0E1;"></span>Neon Sis</div>
+                            <div class="chip" data-color="Mavi"><span class="dot" style="background-color: #FED856;"></span>Kromik Altın</div>
+                            <div class="chip" data-color="Mor"><span class="dot" style="background-color: #3E566F;"></span>Derin Kod</div>
+                        </div>
+                    <!-- </div>/*
+                    <div class="option-group">
+                        <label class="label">Beden</label>
+                        <div class="chips" id="sizes">
+                            <div class="chip active" data-size="Standart">Standart</div>
+                            <div class="chip" data-size="Large">Large</div>
+                        </div>/* -->
+                    </div>
+                </div>
+
+                <div class="purchase-actions">
+                    <div class="quantity-selector">
+                        <button id="dec" aria-label="Azalt">-</button>
+                        <input id="qyt" type="text" value="1" inputmode="numeric" aria-label="Miktar">
+                        <button id="inc" aria-label="Artır">+</button>
+                    </div>
+                    <button class="btn btn-primary" id="add">Sepete Ekle</button>
+                    <button class="btn btn-secondary" id="buy">Hemen Al</button>
+                </div>
+
+                <div class="short-description">
+                    <p><strong>Kısa Açıklama:</strong> Cyberpunk estetiğiyle tasarlanmış bu ses bombası, 360° ses deneyimi ve suya dayanıklı gövdesiyle öne çıkıyor.</p>
+                </div>
+            </div>
+        </section>
+        <section class="additional-info">
+            <div class="similar-products">
+                <h2>Benzer Ürünler</h2>
+                <div class="product-grid" id="similar">
+                    <div class="product-card">
+                        <div class="product-image"><img src="./img/1.webp" alt="Benzer Ürün"></div>
+                        <div class="product-body">
+                            <h3 class="product-name">ZenPods</h3>
+                            <p class="product-meta">True Wireless • ANC</p>
+                            <div class="product-price">₺2.199</div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image"><img src="./img/1.webp" alt="Benzer Ürün"></div>
+                        <div class="product-body">
+                            <h3 class="product-name">AudioMax</h3>
+                            <p class="product-meta">Hi-Fi • Gürültü Engelleme</p>
+                            <div class="product-price">₺3.499</div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image"><img src="./img/1.webp" alt="Benzer Ürün"></div>
+                        <div class="product-body">
+                            <h3 class="product-name">SoundBeat</h3>
+                            <p class="product-meta">Spor • Suya Dayanıklı</p>
+                            <div class="product-price">₺1.899</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reviews" class="customer-reviews">
+                <h2>Yorumlar</h2>
+                <div class="review-list">
+                    <div class="review">
+                        <div class="review-header">
+                            <span class="review-author">Ayşe</span>
+                            <div class="review-stars">★★★★★</div>
+                        </div>
+                        <p class="review-text">Ses net, ANC metroda baya işe yarıyor. Pil de beklediğimden uzun gidiyor.</p>
+                    </div>
+                    <div class="review">
+                        <div class="review-header">
+                            <span class="review-author">Mehmet</span>
+                            <div class="review-stars">★★★★☆</div>
+                        </div>
+                        <p class="review-text">Konfor iyi. İlk gün biraz sıkı geldi ama sonra alışıyorsun. Mikrofon gayet temiz.</p>
+                    </div>
+                    <div class="review">
+                        <div class="review-header">
+                            <span class="review-author">Elif</span>
+                            <div class="review-stars">★★★★☆</div>
+                        </div>
+                        <p class="review-text">Fiyat/performans güzel. Mavi rengi çok hoş duruyor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yobodobo Store. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/styla.js"></script>
+</body>
+
+</html>
