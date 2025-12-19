@@ -1,7 +1,6 @@
 # Fullstack Ödev Projesi
 
-Bu repository, fullstack geliştirme becerilerimi göstermek amacıyla hazırlanmış bir ödev projesini içermektedir.  
-Projede frontend ve backend katmanları birlikte ele alınmış, temel yazılım mimarisi ve veri akışı uygulanmıştır.
+Yobodobo.com tarafından gördğüm Fullstack eğitiminde geliştirdiğim web projesi.
 
 ---
 
@@ -23,5 +22,3 @@ Projede frontend ve backend katmanları birlikte ele alınmış, temel yazılım
 
 ### Veritabanı
 - (MySQL / MongoDB / SQLite vb.)
-
----
