@@ -21,12 +21,7 @@ Projede frontend ve backend katmanları birlikte ele alınmış, temel yazılım
 - CSS3  
 - JavaScript  
 
-### Backend
-- (Kullandığın backend teknolojisini buraya ekleyebilirsin)
-
 ### Veritabanı
 - (MySQL / MongoDB / SQLite vb.)
 
 ---
-
-## Proje Yapısı
